@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>原生js实现主导航下拉菜单显示封装插件</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<nav class="main-menu">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li class="has-child"><a href="">Product</a>
+					<ul class="first-child">
+						<li class="has-child"><a href="">Product1</a>
+							<ul class="second-child">
+								<li><a href="">test1</a></li>
+								<li><a href="">test2</a></li>
+								<li><a href="">test3</a></li>
+							</ul>
+						</li>
+						<li class="has-child"><a href="">Product2</a>
+							<ul class="second-child">
+								<li><a href="">test1</a></li>
+								<li><a href="">test2</a></li>
+								<li><a href="">test3</a></li>
+							</ul>
+						</li>
+						<li class="has-child"><a href="">Product3</a>
+							<ul class="second-child">
+								<li><a href="">test1</a></li>
+								<li><a href="">test2</a></li>
+								<li><a href="">test3</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="has-child"><a href="">Suport</a>
+					<ul class="first-child">
+						<li><a href="">Q&A</a></li>
+						<li><a href="">Contact us</a></li>
+						<li><a href="">Online support</a></li>
+					</ul>
+				</li>
+				<li class="has-child"><a href="">About</a>
+					<ul class="first-child">
+						<li><a href="">Company</a></li>
+						<li><a href="">History</a></li>
+						<li><a href="">Opportunity</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<pre>
+			<code class="language-javascript">
+			</code>
+		</pre>
+	</body>
+	<script src = "js/subMenu.js"></script>
+	<script>
+		//初始化三级菜单树
+		subMenu.init();
+	</script>
+</html>

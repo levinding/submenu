@@ -1,0 +1,40 @@
+html {
+	font-size: 62.6%;
+}
+body{
+  font: 1.4rem arial sans-serif;
+  background: #edecec;
+}
+.main-menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.main-menu li {
+	position: relative;
+	font-size: 1.6rem;
+	width: 150px;
+	line-height: 30px;
+	background: #2b9ff8;
+	text-align: center;
+}
+.main-menu>ul>li {
+	float: left;
+}
+.main-menu a:hover,
+.main-menu li.active>a {
+	color:#2b9ff8;
+	background:#fff;
+}
+.main-menu a {
+	display: block;
+	width:100%;
+	height:100%;
+	text-decoration: none;
+	color: #fff;
+}
+.main-menu .second-child {
+	position: absolute;
+	top: 0;
+	left: 150px;
+}
