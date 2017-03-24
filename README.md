@@ -5,8 +5,8 @@
 <ul>
 <li>See demo in demo directory to see how it works</li>
 <li>Make sure the DOM structure of menu tree is same to the navbar.html in demo directory</li>
-<li>Just include the subMenu.js file in your page</li>
-<li>Just call subMenu.init() method on your page if you use the same classname of parent menu and children menus defined in the subMenu.js file</li>
+<li>Just include the <bold>subMenu.js</bold> file in your page</li>
+<li>Just call <bold>subMenu.init()</bold> method on your page if you use the same classname of parent menu and children menus defined in the subMenu.js file</li>
 </ul>
 <pre><code>subMenu.init()</code></pre>
 
